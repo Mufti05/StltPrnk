@@ -1,0 +1,41 @@
+#!/bin/bash
+pkg install toilet
+pkg install figlet
+gem install lolcat
+clear
+echo "$©®|¶ By Mufti"
+echo "Selamat Datang"
+echo "[1]Langsung Prank Teman"
+echo "[2]Keluar Dari Program Prank"
+read -p "Pilih Saja Bosque:" pl
+if [ $pl = 1 ]
+then
+    read -p "Masukkan Nama Anda:" nm
+    read -p "Geser Berapa cm :" cm
+    echo "Kata Kata Diproses" | lolcat
+    sleep 3
+    clear
+    figlet $nm | lolcat
+    echo "Encrypt Database Satelit" | lolcat
+    echo "Eror404"
+    read -p "please enter" nj
+    echo "Satelit Hacked" | lolcat
+    sleep 1
+    echo "$cm Hacked Centi Meter" | lolcat
+    sleep 1
+    echo "Processing" | lolcat
+    sleep 3
+    echo "Jaringan Mungkin Eror Beberapa Saat" | lolcat
+    sleep 5
+    echo "Memulihkan Jaringan" | lolcat
+    sleep 3
+    echo "Normal Testing " | lolcat
+    sleep 1
+    echo "Berhasil Menggeser Satelit By $nm" | lolcat
+    sleep 2
+    echo "Satelit Connected" | lolcat
+fi
+if [ $pl = 2 ]
+then
+    exit
+fi
